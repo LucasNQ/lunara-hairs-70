@@ -21,6 +21,28 @@ export const productDescriptions: Record<number, string> = {
       </ul>
     </div>
     
+    <div class="bg-purple-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">O que vem na caixa:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>1 Pente Alisador Portátil</li>
+        <li>1 Cabo de carregamento USB</li>
+      </ul>
+    </div>
+    
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">Características Técnicas:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Potência: 45W | Tensão: 110–220V</li>
+        <li>Material: ABS + Revestimento Cerâmico</li>
+        <li>Temperatura: 150°C a 200°C (3 níveis)</li>
+        <li>Tamanho: 18,5 cm x 3,5 cm</li>
+        <li>Peso: 180 g</li>
+        <li>Bateria interna recarregável (4000mAh)</li>
+        <li>Sem fio, portátil e compacto</li>
+        <li>Ideal para uso doméstico e profissional</li>
+      </ul>
+    </div>
+    
     <p class="text-lg font-semibold text-purple-600">🌙 Diga adeus ao frizz e aos fios indisciplinados. Tenha um cabelo impecável, saudável e brilhante em qualquer lugar, a qualquer hora!</p>
   </div>`,
 
@@ -47,6 +69,40 @@ export const productDescriptions: Record<number, string> = {
       </ul>
     </div>
     
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">💡 Modo de uso:</h4>
+      <ol class="list-decimal list-inside space-y-1 text-gray-700">
+        <li>Lave os cabelos com shampoo antirresíduos (recomendado 3 lavagens).</li>
+        <li>Retire o excesso de água com a toalha.</li>
+        <li>Aplique a progressiva mecha por mecha, alinhando com um pente fino.</li>
+        <li>Deixe agir por 40 a 60 minutos, de acordo com a estrutura do fio.</li>
+        <li>Sem enxaguar, seque totalmente os cabelos com secador.</li>
+        <li>Finalize com uma prancha de titânio (4 a 8 passadas por mecha) ou outra prancha (8 a 12 passadas).</li>
+      </ol>
+      <p class="mt-2 text-sm text-gray-600">Dica: Cabelos mais resistentes podem precisar de maior tempo de pausa ou mais passadas com a prancha para um resultado liso total.</p>
+    </div>
+    
+    <div class="bg-purple-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">📦 Detalhes do Produto:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Marca: Havana</li>
+        <li>Linha: Progressiva Vegetal</li>
+        <li>Volume: 500ml</li>
+        <li>Textura: Creme</li>
+        <li>Apresentação: Frasco com dosador</li>
+        <li>Fragrância: Suave</li>
+        <li>Validade: 36 meses</li>
+        <li>Indicação: Todos os tipos de cabelo</li>
+        <li>Uso: Aplicação em cabelo úmido</li>
+        <li>Produto dermatologicamente testado</li>
+      </ul>
+      <div class="mt-3">
+        <p class="font-medium">📏 Dimensões do frasco:</p>
+        <p class="text-sm text-gray-600">Altura: 25 cm | Largura: 6,5 cm | Comprimento: 6,5 cm</p>
+        <p class="text-sm text-gray-600">⚖️ Peso aproximado: 600g</p>
+      </div>
+    </div>
+    
     <p class="text-lg font-semibold text-purple-600">🌙 Ideal para quem busca praticidade, economia e autoestima elevada. Transforme seus fios em casa com um produto de performance profissional e fórmula inovadora.</p>
   </div>`,
 
@@ -71,6 +127,17 @@ export const productDescriptions: Record<number, string> = {
       </ul>
     </div>
     
+    <div class="bg-green-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">🌿 Composição Premium:</h4>
+      <ul class="space-y-1 text-gray-700">
+        <li><strong>Ácido Hialurônico</strong> – hidrata profundamente cabelo e pele</li>
+        <li><strong>Biotina</strong> – essencial para crescimento e fortalecimento capilar</li>
+        <li><strong>Zinco</strong> – melhora a absorção das vitaminas e potencializa os efeitos</li>
+        <li><strong>Vitaminas A, C, D e E</strong> – antioxidantes, fortalecem imunidade e beleza</li>
+        <li><strong>Queratina vegetal</strong> – restaura a estrutura dos fios e unhas</li>
+      </ul>
+    </div>
+    
     <div class="bg-purple-50 p-4 rounded-lg">
       <h4 class="font-semibold mb-2">🍇 Fácil, Saboroso e Saudável:</h4>
       <ul class="space-y-1 text-gray-700">
@@ -78,6 +145,17 @@ export const productDescriptions: Record<number, string> = {
         <li>Zero açúcar, zero lactose, zero glúten</li>
         <li>Não engorda, não causa desconfortos</li>
         <li>Ideal para qualquer rotina: basta 1 gominha por dia!</li>
+      </ul>
+    </div>
+    
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">📦 Informações do Produto:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Marca: TopHair</li>
+        <li>Quantidade: 30 gomas (1 mês de uso)</li>
+        <li>Indicação: Cabelo, pele e unhas</li>
+        <li>Formato: Goma mastigável</li>
+        <li>Uso recomendado: 1 unidade por dia</li>
       </ul>
     </div>
     
@@ -107,6 +185,33 @@ export const productDescriptions: Record<number, string> = {
       </ul>
     </div>
     
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">📦 O que vem na embalagem:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>1 Depilador Laser Flex</li>
+        <li>1 Cabeça depilatória</li>
+        <li>1 Cabeça microfólio (para esfoliação)</li>
+        <li>1 Pincel de limpeza</li>
+        <li>1 Cabo USB</li>
+        <li>1 Manual de uso</li>
+      </ul>
+    </div>
+    
+    <div class="bg-pink-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">⚙️ Características Técnicas:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Cor: Branco com detalhes roxos</li>
+        <li>Material: ABS, PVC e PS</li>
+        <li>Peso: 80g</li>
+        <li>Tamanho: 12 cm x 3 cm x 1 cm</li>
+        <li>Bateria: Íons de lítio recarregável</li>
+        <li>Voltagem: 100–240V (bivolt)</li>
+        <li>Luz automática com sensor de contato com a pele</li>
+        <li>Desligamento automático após 6 segundos fora do contato</li>
+      </ul>
+      <p class="mt-2 text-sm text-amber-600">⚠️ Recomendações de uso: Utilizar a cada 10 dias. Não usar em áreas com irritação ou feridas. O dispositivo funciona apenas em contato direto com a pele para segurança e economia de bateria</p>
+    </div>
+    
     <p class="text-lg font-semibold text-purple-600">🌙 Transforme sua rotina de autocuidado com praticidade, conforto e eficiência. O Depilador Laser Flex é sua nova forma de se cuidar — sem dor, sem esforço e com total liberdade.</p>
   </div>`,
 
@@ -134,6 +239,22 @@ export const productDescriptions: Record<number, string> = {
     <div class="bg-purple-50 p-4 rounded-lg">
       <h4 class="font-semibold mb-2">💡 Por que escolher o Love Girl?</h4>
       <p>Seja para um momento de autocuidado ou para intensificar a intimidade a dois, o Love Girl é o toque especial que faltava. Seu efeito quente e beijável transforma simples carícias em uma explosão de prazer, enquanto sua fórmula hidratante cuida da sua pele com carinho.</p>
+    </div>
+    
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">📦 Informações do produto:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Marca: Nelô</li>
+        <li>Linha: Love Girl</li>
+        <li>Tipo: Gel Aromatizante Corporal e Íntimo</li>
+        <li>Volume: 250ml</li>
+        <li>Textura: Gel-creme leve</li>
+        <li>Fragrância: Morango com Creme</li>
+        <li>Indicação: Virilha e corpo</li>
+        <li>Beijável: Sim</li>
+        <li>Efeito térmico: Sim, aquecimento suave</li>
+        <li>Uso diário ou para momentos especiais</li>
+      </ul>
     </div>
   </div>`,
 
@@ -204,7 +325,34 @@ export const productDescriptions: Record<number, string> = {
       </ol>
     </div>
     
-    <p class="text-lg font-semibold text-purple-600">🌙 Garante já o seu Depilador Elétrico Feminino 5 em 1 e tenha liberdade para se cuidar em qualquer lugar! 💖</p>
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">Conteúdo da Embalagem:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>1 Depilador elétrico portátil</li>
+        <li>5 cabeças intercambiáveis (sobrancelhas, corpo, área íntima, nariz, buço)</li>
+        <li>Pentes de ajuste (2 mm e 4 mm)</li>
+        <li>Tampa protetora</li>
+        <li>Escova de limpeza</li>
+        <li>Manual de instruções</li>
+      </ul>
+    </div>
+    
+    <div class="bg-green-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">Informações Técnicas:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Cor: Branco com detalhes em rosa</li>
+        <li>Fonte de energia: 1 pilha AA (não inclusa)</li>
+        <li>Duração da bateria: até 40 minutos</li>
+        <li>Peso: 150 g</li>
+        <li>Não resistente à água – uso apenas com pele seca</li>
+        <li>Material: Plástico e aço inoxidável</li>
+        <li>Não é recarregável</li>
+      </ul>
+      <p class="mt-2 text-sm text-gray-600">Indicado para mulheres que buscam uma depilação indolor, rápida e precisa, sem abrir mão do cuidado com a pele e da praticidade no dia a dia.</p>
+      <p class="mt-2 text-sm text-amber-600">💡 Dica Extra: Faça sempre um teste em uma pequena área antes de usar em zonas mais sensíveis. Evite o uso sobre pele lesionada ou irritada.</p>
+    </div>
+    
+    <p class="text-lg font-semibold text-purple-600">🌙 Garanta já o seu Depilador Elétrico Feminino 5 em 1 e tenha liberdade para se cuidar em qualquer lugar! 💖</p>
   </div>`,
 
   1: `<div class="space-y-4">
@@ -239,6 +387,22 @@ export const productDescriptions: Record<number, string> = {
         <li>Finalize como desejar.</li>
       </ol>
       <p class="mt-2 text-sm text-amber-600">⚠️ Importante: Faça o teste de mecha antes da aplicação completa para verificar a compatibilidade com seu cabelo.</p>
+    </div>
+    
+    <div class="bg-purple-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">💡 Ficha Técnica:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>Marca: Dudanani</li>
+        <li>Linha: Liso Therapy – Realinhamento Orgânico</li>
+        <li>Volume: 1L (1000ml)</li>
+        <li>Apresentação: Creme em pote</li>
+        <li>Indicação: Todos os tipos de cabelo</li>
+        <li>Efeitos: Alisamento, antifrizz, brilho, maciez</li>
+        <li>Livre de: Formol, parabenos e sulfatos</li>
+        <li>Vegano: Não</li>
+        <li>Cruelty-Free: Sim</li>
+        <li>Dermatologicamente testado: Sim</li>
+      </ul>
     </div>
   </div>`,
 
@@ -295,6 +459,34 @@ export const productDescriptions: Record<number, string> = {
         <li><span class="font-semibold">💆 Massagem Relaxante</span><br>Estimula a circulação sanguínea, ajuda a suavizar linhas finas e promove um efeito lifting natural.</li>
         <li><span class="font-semibold">💧 Hidratação Potencializada</span><br>Facilita a absorção de cremes e séruns, deixando sua rotina de cuidados ainda mais eficiente.</li>
         <li><span class="font-semibold">🧼 Versatilidade Completa</span><br>Acompanha 5 cabeçotes exclusivos para cada função – limpeza, esfoliação, massagem, polimento e aplicação de produtos.</li>
+      </ul>
+    </div>
+    
+    <div class="bg-blue-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">⚙️ Especificações Técnicas:</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>2 níveis de velocidade (suave ou intensa)</li>
+        <li>Alimentação: 2 pilhas AA (não inclusas)</li>
+        <li>Material: ABS e cerdas macias de microtecnologia</li>
+        <li>Design ergonômico e leve</li>
+        <li>Medidas: 13 x 4 cm</li>
+        <li>Cor: Rosa e branco</li>
+        <li>Atenção: Não é à prova d'água – evite contato direto com água.</li>
+      </ul>
+    </div>
+    
+    <div class="bg-green-50 p-4 rounded-lg">
+      <h4 class="font-semibold mb-2">📦 O que vem na caixa?</h4>
+      <ul class="list-disc list-inside space-y-1 text-gray-700">
+        <li>1 Aparelho de limpeza facial</li>
+        <li>5 Cabeçotes multifuncionais:</li>
+        <ul class="list-disc list-inside ml-4 space-y-1">
+          <li>Escova de limpeza</li>
+          <li>Esponja de maquiagem</li>
+          <li>Esponja de látex</li>
+          <li>Cabeçote esfoliante</li>
+          <li>Cabeçote massageador</li>
+        </ul>
       </ul>
     </div>
     
