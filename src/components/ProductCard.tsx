@@ -36,13 +36,13 @@ const ProductCard = ({ product, priority = false }: ProductCardProps) => {
       onClick={handleProductClick}
     >
       <div className="relative overflow-hidden rounded-t-lg flex-shrink-0 bg-gray-50">
-        <div className="w-full h-40 xs:h-48 sm:h-56 lg:h-64 flex items-center justify-center p-2 sm:p-3">
+        <div className="w-full h-48 xs:h-52 sm:h-60 md:h-64 lg:h-72 p-3 sm:p-4">
           <OptimizedImage
             src={product.image}
             alt={`${product.name} - Produto de cuidado e beleza`}
-            className="max-w-full max-h-full object-contain group-hover:scale-105 transition-transform duration-500"
-            width={300}
-            height={300}
+            className="group-hover:scale-105 transition-transform duration-500 w-full h-full"
+            width={400}
+            height={400}
             priority={priority}
           />
         </div>

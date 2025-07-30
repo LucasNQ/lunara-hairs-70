@@ -33,14 +33,14 @@ const OptimizedImage = ({
   };
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden w-full h-full flex items-center justify-center">
       {isLoading && (
         <div className="absolute inset-0 bg-gray-100 animate-pulse rounded" />
       )}
       <img
         src={imageError ? fallbackSrc : src}
         alt={alt}
-        className={`${className} ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300`}
+        className={`${className} ${isLoading ? 'opacity-0' : 'opacity-100'} transition-opacity duration-300 max-w-full max-h-full object-contain`}
         width={width}
         height={height}
         loading={priority ? 'eager' : 'lazy'}
@@ -48,7 +48,7 @@ const OptimizedImage = ({
         onError={handleError}
         onLoad={handleLoad}
         style={{
-          aspectRatio: width && height ? `${width}/${height}` : undefined,
+          aspectRatio: width && height ? `${width}/${height}` : 'auto',
         }}
       />
     </div>
