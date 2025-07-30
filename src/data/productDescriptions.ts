@@ -538,149 +538,234 @@ export const productDescriptions: Record<number, string> = {
     </div>
   </div>`,
 
-  1: `<div class="space-y-4">
-    <p class="font-semibold text-lg text-green-600">🌿 Progressiva Orgânica Liso Therapy – Realinhamento Capilar com Resultado Profissional em Casa</p>
+  1: `<div class="space-y-6">
+    <h1 class="text-3xl font-bold text-green-600 mb-6">🌿 Progressiva Orgânica Liso Therapy – Realinhamento Capilar com Resultado Profissional</h1>
     
-    <p>Transforme completamente a saúde e aparência dos seus cabelos com a Liso Therapy, uma progressiva orgânica de realinhamento térmico desenvolvida para oferecer alisamento duradouro, brilho intenso e hidratação profunda — tudo isso sem formol e com segurança comprovada.</p>
+    <p class="text-gray-700 text-lg leading-relaxed mb-6">Transforme completamente a saúde e aparência dos seus cabelos com a Liso Therapy, uma progressiva orgânica de realinhamento térmico desenvolvida para oferecer alisamento duradouro, brilho intenso e hidratação profunda — tudo isso sem formol e com segurança comprovada.</p>
     
-    <p>Formulada com aminoácidos, proteínas, extrato de abacate e óleo de murumuru, a Liso Therapy atua desde a raiz até as pontas, promovendo uma blindagem antioxidante, redução de volume imediata e um liso natural, saudável e cheio de movimento.</p>
+    <p class="text-gray-700 leading-relaxed mb-6">Formulada com aminoácidos, proteínas, extrato de abacate e óleo de murumuru, a Liso Therapy atua desde a raiz até as pontas, promovendo uma blindagem antioxidante, redução de volume imediata e um liso natural, saudável e cheio de movimento.</p>
     
-    <div class="bg-green-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">🌿 Destaques do Produto:</h4>
-      <ul class="space-y-1 text-gray-700">
-        <li>Realinhamento térmico inteligente com efeito disciplinante instantâneo.</li>
-        <li>Livre de formol – mais seguro para você e para o profissional.</li>
-        <li>Redução de volume, mais brilho e maciez logo na primeira aplicação.</li>
-        <li>Ação antifrizz e blindagem antidanos, protegendo os fios contra calor e poluição.</li>
-        <li>Ideal para todos os tipos de cabelo, incluindo secos, danificados ou com química.</li>
-        <li>Fragrância suave e agradável para uma experiência sensorial completa.</li>
-        <li>Com blend nutritivo de óleos vegetais, como murumuru e extrato de abacate.</li>
-        <li>Produto original com nota fiscal.</li>
+    <div class="bg-green-50 p-6 rounded-lg border-l-4 border-green-400 mb-6">
+      <h4 class="text-lg font-semibold text-green-800 mb-4">🌿 Destaques do Produto:</h4>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-3">
+          <span class="text-green-600 font-bold text-lg">✅</span>
+          <span class="text-green-700">Realinhamento térmico inteligente com efeito disciplinante instantâneo</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-green-600 font-bold text-lg">✅</span>
+          <span class="text-green-700">Livre de formol – mais seguro para você e para o profissional</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-green-600 font-bold text-lg">✅</span>
+          <span class="text-green-700">Redução de volume, mais brilho e maciez logo na primeira aplicação</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-green-600 font-bold text-lg">✅</span>
+          <span class="text-green-700">Ação antifrizz e blindagem antidanos, protegendo os fios contra calor e poluição</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-green-600 font-bold text-lg">✅</span>
+          <span class="text-green-700">Ideal para todos os tipos de cabelo, incluindo secos, danificados ou com química</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="text-green-600 font-bold text-lg">✅</span>
+          <span class="text-green-700">Com blend nutritivo de óleos vegetais, como murumuru e extrato de abacate</span>
+        </li>
       </ul>
     </div>
     
-    <div class="bg-blue-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">🧴 Modo de Uso:</h4>
-      <ol class="list-decimal list-inside space-y-1 text-gray-700">
-        <li>Lave o cabelo com shampoo de limpeza profunda e seque 100%.</li>
-        <li>Aplique a Liso Therapy mecha por mecha, respeitando 1 cm do couro cabeludo.</li>
-        <li>Deixe o produto agir por 60 minutos.</li>
-        <li>Enxágue completamente com água.</li>
-        <li>Seque, escove e pranche em mechas finas (para melhor resultado).</li>
-        <li>Finalize como desejar.</li>
+    <div class="bg-blue-50 p-6 rounded-lg mb-6">
+      <h4 class="text-lg font-semibold text-blue-800 mb-4">🧴 Modo de Uso:</h4>
+      <ol class="space-y-3 list-decimal list-inside">
+        <li class="text-blue-700">Lave o cabelo com shampoo de limpeza profunda e seque 100%</li>
+        <li class="text-blue-700">Aplique a Liso Therapy mecha por mecha, respeitando 1 cm do couro cabeludo</li>
+        <li class="text-blue-700">Deixe o produto agir por 60 minutos</li>
+        <li class="text-blue-700">Enxágue completamente com água</li>
+        <li class="text-blue-700">Seque, escove e pranche em mechas finas (para melhor resultado)</li>
+        <li class="text-blue-700">Finalize como desejar</li>
       </ol>
-      <p class="mt-2 text-sm text-amber-600">⚠️ Importante: Faça o teste de mecha antes da aplicação completa para verificar a compatibilidade com seu cabelo.</p>
     </div>
     
-    <div class="bg-purple-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">💡 Ficha Técnica:</h4>
-      <ul class="list-disc list-inside space-y-1 text-gray-700">
-        <li>Marca: Dudanani</li>
-        <li>Linha: Liso Therapy – Realinhamento Orgânico</li>
-        <li>Volume: 1L (1000ml)</li>
-        <li>Apresentação: Creme em pote</li>
-        <li>Indicação: Todos os tipos de cabelo</li>
-        <li>Efeitos: Alisamento, antifrizz, brilho, maciez</li>
-        <li>Livre de: Formol, parabenos e sulfatos</li>
-        <li>Vegano: Não</li>
-        <li>Cruelty-Free: Sim</li>
-        <li>Dermatologicamente testado: Sim</li>
-      </ul>
+    <div class="mt-4 p-4 bg-yellow-100 rounded-lg border-l-4 border-yellow-400 mb-6">
+      <p class="text-yellow-800 text-sm">
+        <strong>⚠️ Importante:</strong> Faça o teste de mecha antes da aplicação completa para verificar a compatibilidade com seu cabelo.
+      </p>
+    </div>
+    
+    <div class="bg-gray-50 p-6 rounded-lg">
+      <h4 class="text-lg font-semibold text-gray-800 mb-4">💡 Ficha Técnica:</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="space-y-2">
+          <p><strong class="text-gray-700">Marca:</strong> <span class="text-gray-600">Dudanani</span></p>
+          <p><strong class="text-gray-700">Volume:</strong> <span class="text-gray-600">1L (1000ml)</span></p>
+          <p><strong class="text-gray-700">Apresentação:</strong> <span class="text-gray-600">Creme em pote</span></p>
+          <p><strong class="text-gray-700">Indicação:</strong> <span class="text-gray-600">Todos os tipos de cabelo</span></p>
+        </div>
+        <div class="space-y-2">
+          <p><strong class="text-gray-700">Efeitos:</strong> <span class="text-gray-600">Alisamento, antifrizz, brilho, maciez</span></p>
+          <p><strong class="text-gray-700">Livre de:</strong> <span class="text-gray-600">Formol, parabenos e sulfatos</span></p>
+          <p><strong class="text-gray-700">Cruelty-Free:</strong> <span class="text-green-600">✅ Sim</span></p>
+          <p><strong class="text-gray-700">Dermatologicamente testado:</strong> <span class="text-green-600">✅ Sim</span></p>
+        </div>
+      </div>
     </div>
   </div>`,
 
-  8: `<div class="space-y-4">
-    <p class="font-semibold text-lg text-purple-600">💄 Batom Depilador DepilaPlus – Praticidade, Elegância e Suavidade na Palma da Sua Mão!</p>
+  8: `<div class="space-y-6">
+    <h1 class="text-3xl font-bold text-purple-600 mb-6">💄 Batom Depilador DepilaPlus – Praticidade, Elegância e Suavidade na Palma da Sua Mão!</h1>
     
-    <p>Descubra a liberdade de uma pele lisinha, sem dor e com total discrição! O Batom Depilador DepilaPlus é o aliado ideal da mulher moderna: compacto, hipoalergênico e recarregável via USB, ele remove com precisão os pelos do buço, queixo, bochechas, pescoço e até sobrancelhas – sem agredir a pele!</p>
-    
-    <p>Com design sofisticado em formato de batom, cabe na palma da mão e na necessaire, permitindo retoques rápidos a qualquer momento do dia, em casa, no carro ou no trabalho. A luz LED embutida facilita a visualização dos pelos mais finos, garantindo uma depilação uniforme e impecável até nos mínimos detalhes.</p>
-    
-    <div class="bg-purple-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">✅ Principais Benefícios:</h4>
-      <ul class="space-y-1 text-gray-700">
-        <li>🔸 Depilação indolor e eficaz – Remoção suave e sem vermelhidão, mesmo nas peles mais sensíveis.</li>
-        <li>🔸 Design luxuoso e discreto – Em formato de batom, é elegante e perfeito para levar na bolsa.</li>
-        <li>🔸 Recarregável via USB – Sem necessidade de pilhas. Mais prático, econômico e sustentável.</li>
-        <li>🔸 Luz LED integrada – Visualize até os menores pelos para um acabamento impecável.</li>
-        <li>🔸 Portátil e silencioso – Use em qualquer lugar sem chamar atenção.</li>
-        <li>🔸 Lâmina hipoalergênica em aço inoxidável – Segura e gentil com todos os tipos de pele.</li>
-        <li>🔸 Fácil de limpar – Cabeça removível + escovinha inclusa para higienização rápida.</li>
-      </ul>
+    <div class="text-center p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg border border-purple-200 mb-6">
+      <p class="text-lg font-medium text-purple-700">Descubra a liberdade de uma pele lisinha, sem dor e com total discrição!</p>
     </div>
     
-    <div class="bg-pink-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">⚙️ Especificações Técnicas:</h4>
-      <ul class="space-y-1 text-gray-700">
-        <li>Cor: Branco com detalhes dourados</li>
-        <li>Material: Plástico de alta qualidade</li>
-        <li>Alimentação: Recarregável via cabo USB</li>
-        <li>Tamanho aproximado do aparelho: 13 cm x 2 cm</li>
-        <li>Peso aproximado: 24 g</li>
-        <li>Voltagem: Bivolt (110V/220V)</li>
-        <li>Uso recomendado: Buço, rosto, sobrancelha, pescoço</li>
-      </ul>
+    <p class="text-gray-700 text-lg leading-relaxed mb-6">O Batom Depilador DepilaPlus é o aliado ideal da mulher moderna: compacto, hipoalergênico e recarregável via USB, ele remove com precisão os pelos do buço, queixo, bochechas, pescoço e até sobrancelhas – sem agredir a pele!</p>
+    
+    <p class="text-gray-700 leading-relaxed mb-6">Com design sofisticado em formato de batom, cabe na palma da mão e na necessaire, permitindo retoques rápidos a qualquer momento do dia, em casa, no carro ou no trabalho. A luz LED embutida facilita a visualização dos pelos mais finos, garantindo uma depilação uniforme e impecável até nos mínimos detalhes.</p>
+    
+    <div class="bg-purple-50 p-6 rounded-lg border-l-4 border-purple-400 mb-6">
+      <h4 class="text-lg font-semibold text-purple-800 mb-4">✅ Principais Benefícios:</h4>
+      <div class="space-y-3">
+        <div class="flex items-start gap-3">
+          <span class="text-purple-600">🔸</span>
+          <p><strong class="text-purple-700">Depilação indolor e eficaz</strong> – Remoção suave e sem vermelhidão, mesmo nas peles mais sensíveis</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-purple-600">🔸</span>
+          <p><strong class="text-purple-700">Design luxuoso e discreto</strong> – Em formato de batom, é elegante e perfeito para levar na bolsa</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-purple-600">🔸</span>
+          <p><strong class="text-purple-700">Recarregável via USB</strong> – Sem necessidade de pilhas. Mais prático, econômico e sustentável</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-purple-600">🔸</span>
+          <p><strong class="text-purple-700">Luz LED integrada</strong> – Visualize até os menores pelos para um acabamento impecável</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-purple-600">🔸</span>
+          <p><strong class="text-purple-700">Portátil e silencioso</strong> – Use em qualquer lugar sem chamar atenção</p>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-purple-600">🔸</span>
+          <p><strong class="text-purple-700">Lâmina hipoalergênica</strong> em aço inoxidável – Segura e gentil com todos os tipos de pele</p>
+        </div>
+      </div>
     </div>
     
-    <p class="text-lg font-semibold text-purple-600">🌙 Ideal para Mulheres Vaidosas, Ocupadas e Poderosas. Seja em viagens, encontros, reuniões ou selfies, o DepilaPlus entrega beleza instantânea com conforto e praticidade. Um verdadeiro item de autocuidado que toda mulher merece ter na bolsa!</p>
+    <div class="bg-pink-50 p-6 rounded-lg">
+      <h4 class="text-lg font-semibold text-pink-800 mb-4">⚙️ Especificações Técnicas:</h4>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="space-y-2">
+          <p><strong class="text-gray-700">Cor:</strong> <span class="text-gray-600">Branco com detalhes dourados</span></p>
+          <p><strong class="text-gray-700">Material:</strong> <span class="text-gray-600">Plástico de alta qualidade</span></p>
+          <p><strong class="text-gray-700">Alimentação:</strong> <span class="text-gray-600">Recarregável via cabo USB</span></p>
+          <p><strong class="text-gray-700">Voltagem:</strong> <span class="text-gray-600">Bivolt (110V/220V)</span></p>
+        </div>
+        <div class="space-y-2">
+          <p><strong class="text-gray-700">Tamanho:</strong> <span class="text-gray-600">13 cm x 2 cm</span></p>
+          <p><strong class="text-gray-700">Peso:</strong> <span class="text-gray-600">24 g</span></p>
+          <p><strong class="text-gray-700">Uso recomendado:</strong> <span class="text-gray-600">Buço, rosto, sobrancelha, pescoço</span></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-center p-4 bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg">
+      <p class="text-lg font-semibold text-purple-600">🌙 Ideal para Mulheres Vaidosas, Ocupadas e Poderosas. Seja em viagens, encontros, reuniões ou selfies, o DepilaPlus entrega beleza instantânea com conforto e praticidade. Um verdadeiro item de autocuidado que toda mulher merece ter na bolsa!</p>
+    </div>
   </div>`,
 
-  7: `<div class="space-y-4">
-    <p class="font-semibold text-lg text-pink-600">✨ Escova de Limpeza Facial 5 em 1 – Cuidados Profundos com a Sua Pele, em Casa!</p>
+  7: `<div class="space-y-6">
+    <h1 class="text-3xl font-bold text-pink-600 mb-6">✨ Escova de Limpeza Facial 5 em 1 – Cuidados Profundos com a Sua Pele, em Casa!</h1>
     
-    <p class="font-medium text-purple-600">Pele limpa, jovem e radiante com apenas alguns minutos por dia!</p>
-    
-    <p>A Escova de Limpeza Facial 5 em 1 é o seu novo ritual de beleza indispensável. Com tecnologia rotativa e 5 cabeçotes multifuncionais, ela realiza limpeza profunda, esfoliação suave, massagem facial e ainda potencializa a absorção dos seus produtos de skincare favoritos.</p>
-    
-    <p>Desenvolvida para todos os tipos de pele, essa escova elétrica portátil é perfeita para quem deseja manter o rosto livre de cravos, oleosidade, manchas e sinais de envelhecimento – com praticidade e resultados visíveis.</p>
-    
-    <div class="bg-pink-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">✅ Benefícios e Funções:</h4>
-      <ul class="space-y-2 text-gray-700">
-        <li><span class="font-semibold">🌿 Limpeza Profunda</span><br>Remove resíduos, maquiagem, poluição e oleosidade acumulada nos poros.</li>
-        <li><span class="font-semibold">🌸 Esfoliação Renovadora</span><br>Elimina células mortas, suaviza manchas e melhora a textura da pele.</li>
-        <li><span class="font-semibold">💆 Massagem Relaxante</span><br>Estimula a circulação sanguínea, ajuda a suavizar linhas finas e promove um efeito lifting natural.</li>
-        <li><span class="font-semibold">💧 Hidratação Potencializada</span><br>Facilita a absorção de cremes e séruns, deixando sua rotina de cuidados ainda mais eficiente.</li>
-        <li><span class="font-semibold">🧼 Versatilidade Completa</span><br>Acompanha 5 cabeçotes exclusivos para cada função – limpeza, esfoliação, massagem, polimento e aplicação de produtos.</li>
-      </ul>
+    <div class="text-center p-4 bg-gradient-to-r from-pink-50 to-purple-50 rounded-lg border border-pink-200 mb-6">
+      <p class="text-lg font-medium text-purple-700">Pele limpa, jovem e radiante com apenas alguns minutos por dia!</p>
     </div>
     
-    <div class="bg-blue-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">⚙️ Especificações Técnicas:</h4>
-      <ul class="list-disc list-inside space-y-1 text-gray-700">
-        <li>2 níveis de velocidade (suave ou intensa)</li>
-        <li>Alimentação: 2 pilhas AA (não inclusas)</li>
-        <li>Material: ABS e cerdas macias de microtecnologia</li>
-        <li>Design ergonômico e leve</li>
-        <li>Medidas: 13 x 4 cm</li>
-        <li>Cor: Rosa e branco</li>
-        <li>Atenção: Não é à prova d'água – evite contato direto com água.</li>
-      </ul>
+    <p class="text-gray-700 text-lg leading-relaxed mb-6">A Escova de Limpeza Facial 5 em 1 é o seu novo ritual de beleza indispensável. Com tecnologia rotativa e 5 cabeçotes multifuncionais, ela realiza limpeza profunda, esfoliação suave, massagem facial e ainda potencializa a absorção dos seus produtos de skincare favoritos.</p>
+    
+    <p class="text-gray-700 leading-relaxed mb-6">Desenvolvida para todos os tipos de pele, essa escova elétrica portátil é perfeita para quem deseja manter o rosto livre de cravos, oleosidade, manchas e sinais de envelhecimento – com praticidade e resultados visíveis.</p>
+    
+    <div class="bg-pink-50 p-6 rounded-lg border-l-4 border-pink-400 mb-6">
+      <h4 class="text-lg font-semibold text-pink-800 mb-4">✅ Benefícios e Funções:</h4>
+      <div class="space-y-4">
+        <div class="flex items-start gap-3">
+          <span class="text-pink-600">🌿</span>
+          <div>
+            <p class="font-semibold text-pink-700">Limpeza Profunda</p>
+            <p class="text-gray-700 text-sm">Remove resíduos, maquiagem, poluição e oleosidade acumulada nos poros.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-pink-600">🌸</span>
+          <div>
+            <p class="font-semibold text-pink-700">Esfoliação Renovadora</p>
+            <p class="text-gray-700 text-sm">Elimina células mortas, suaviza manchas e melhora a textura da pele.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-pink-600">💆</span>
+          <div>
+            <p class="font-semibold text-pink-700">Massagem Relaxante</p>
+            <p class="text-gray-700 text-sm">Estimula a circulação sanguínea, ajuda a suavizar linhas finas e promove um efeito lifting natural.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-pink-600">💧</span>
+          <div>
+            <p class="font-semibold text-pink-700">Hidratação Potencializada</p>
+            <p class="text-gray-700 text-sm">Facilita a absorção de cremes e séruns, deixando sua rotina de cuidados ainda mais eficiente.</p>
+          </div>
+        </div>
+        <div class="flex items-start gap-3">
+          <span class="text-pink-600">🧼</span>
+          <div>
+            <p class="font-semibold text-pink-700">Versatilidade Completa</p>
+            <p class="text-gray-700 text-sm">Acompanha 5 cabeçotes exclusivos para cada função – limpeza, esfoliação, massagem, polimento e aplicação de produtos.</p>
+          </div>
+        </div>
+      </div>
     </div>
     
-    <div class="bg-green-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">📦 O que vem na caixa?</h4>
-      <ul class="list-disc list-inside space-y-1 text-gray-700">
-        <li>1 Aparelho de limpeza facial</li>
-        <li>5 Cabeçotes multifuncionais:</li>
-        <ul class="list-disc list-inside ml-4 space-y-1">
-          <li>Escova de limpeza</li>
-          <li>Esponja de maquiagem</li>
-          <li>Esponja de látex</li>
-          <li>Cabeçote esfoliante</li>
-          <li>Cabeçote massageador</li>
+    <div class="grid md:grid-cols-2 gap-4 mb-6">
+      <div class="bg-blue-50 p-6 rounded-lg">
+        <h4 class="text-lg font-semibold text-blue-800 mb-4">⚙️ Especificações Técnicas:</h4>
+        <ul class="space-y-2 text-gray-700">
+          <li class="flex items-center gap-2"><span class="text-blue-600">🔧</span> 2 níveis de velocidade (suave ou intensa)</li>
+          <li class="flex items-center gap-2"><span class="text-blue-600">🔋</span> Alimentação: 2 pilhas AA (não inclusas)</li>
+          <li class="flex items-center gap-2"><span class="text-blue-600">🏗️</span> Material: ABS e cerdas macias de microtecnologia</li>
+          <li class="flex items-center gap-2"><span class="text-blue-600">📏</span> Medidas: 13 x 4 cm</li>
+          <li class="flex items-center gap-2"><span class="text-blue-600">🎨</span> Cor: Rosa e branco</li>
         </ul>
-      </ul>
+        <div class="mt-4 p-3 bg-yellow-100 rounded border-l-4 border-yellow-400">
+          <p class="text-yellow-800 text-sm">⚠️ <strong>Atenção:</strong> Não é à prova d'água – evite contato direto com água.</p>
+        </div>
+      </div>
+      
+      <div class="bg-green-50 p-6 rounded-lg">
+        <h4 class="text-lg font-semibold text-green-800 mb-4">📦 O que vem na caixa?</h4>
+        <ul class="space-y-2 text-gray-700">
+          <li class="flex items-center gap-2"><span class="text-green-600">✓</span> 1 Aparelho de limpeza facial</li>
+          <li class="flex items-center gap-2"><span class="text-green-600">✓</span> 5 Cabeçotes multifuncionais:</li>
+          <ul class="ml-6 space-y-1 text-sm">
+            <li>• Escova de limpeza</li>
+            <li>• Esponja de maquiagem</li>
+            <li>• Esponja de látex</li>
+            <li>• Cabeçote esfoliante</li>
+            <li>• Cabeçote massageador</li>
+          </ul>
+        </ul>
+      </div>
     </div>
     
-    <div class="bg-purple-50 p-4 rounded-lg">
-      <h4 class="font-semibold mb-2">💡 Ideal para:</h4>
-      <ul class="space-y-1 text-gray-700">
-        <li>Eliminar cravos e espinhas</li>
-        <li>Reduzir manchas e sinais da idade</li>
-        <li>Melhorar a absorção de produtos</li>
-        <li>Promover relaxamento facial e cuidado diário</li>
-        <li>Presentear alguém especial com um mimo de autocuidado 💝</li>
+    <div class="bg-purple-50 p-6 rounded-lg">
+      <h4 class="text-lg font-semibold text-purple-800 mb-4">💡 Ideal para:</h4>
+      <ul class="space-y-2 text-gray-700">
+        <li class="flex items-center gap-2"><span class="text-purple-600">💜</span> Eliminar cravos e espinhas</li>
+        <li class="flex items-center gap-2"><span class="text-purple-600">💜</span> Reduzir manchas e sinais da idade</li>
+        <li class="flex items-center gap-2"><span class="text-purple-600">💜</span> Melhorar a absorção de produtos</li>
+        <li class="flex items-center gap-2"><span class="text-purple-600">💜</span> Promover relaxamento facial e cuidado diário</li>
+        <li class="flex items-center gap-2"><span class="text-purple-600">💝</span> Presentear alguém especial com um mimo de autocuidado</li>
       </ul>
     </div>
   </div>`
