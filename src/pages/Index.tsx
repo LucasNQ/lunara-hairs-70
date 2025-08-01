@@ -40,7 +40,7 @@ const Index = () => {
     <HelmetProvider>
       <div className="min-h-screen">
         <SEOHead 
-          title="Lunara Cosméticos | Transforme seus Cabelos"
+          title="Lunara Cosméticos"
           description="Descubra nossa linha completa de produtos profissionais para transformar seus cabelos com resultados de salão no conforto da sua casa. Progressivas, alisadores e muito mais."
           keywords="produtos cabelo, progressiva sem formol, alisamento, cuidados capilares, beleza, cosmética, pente alisador, gummy cabelo"
         />
