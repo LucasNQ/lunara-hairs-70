@@ -11,7 +11,7 @@ interface SEOHeadProps {
 }
 
 const SEOHead = ({ 
-  title = "Lunara - Produtos Profissionais para Cabelo",
+  title = "Lunara Cosméticos",
   description = "Descubra nossa linha completa de produtos profissionais para transformar seus cabelos com resultados de salão no conforto da sua casa.",
   keywords = "produtos cabelo, progressiva, alisamento, cuidados capilares, beleza, cosmética",
   ogImage = "/lovable-uploads/55505b55-7b7f-4725-a602-48eec7ae7b42.png",
