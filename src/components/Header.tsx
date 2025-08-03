@@ -71,14 +71,18 @@ const Header = () => {
       isScrolled ? 'glass-effect shadow-lg' : 'glass-effect'
     }`}>
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-14 sm:h-16">
+        <div className="flex items-center justify-between h-24 sm:h-28 md:h-32">
           {/* Logo */}
           <div className="flex-shrink-0">
             <button 
               onClick={() => navigate('/')}
-              className="text-lg sm:text-xl md:text-2xl font-bold text-gradient hover:opacity-80 transition-opacity"
+              className="hover:opacity-80 transition-opacity"
             >
-              Lunara
+              <img 
+                src="/lovable-uploads/5f59a910-de6e-417b-917f-15a0f011ea54.png" 
+                alt="Lunara Cosméticos"
+                className="h-20 sm:h-24 md:h-28 w-auto object-contain"
+              />
             </button>
           </div>
 
