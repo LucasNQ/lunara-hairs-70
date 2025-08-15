@@ -12,7 +12,7 @@ export const useProducts = () => {
       images: [
         "/lovable-uploads/c86d851d-b7bb-4644-bee5-3f3b4b9f73dd.png",
         "/lovable-uploads/6abe5b16-b16d-46a7-b892-a0075fe9804d.png",
-        "/lovable-uploads/f5e435e0-65a5-4658-9bb8-abc2b606e62d.png",
+        "/lovable-uploads/b41498ec-4d7c-40b7-81a9-fe913104bf88.png",
         "/lovable-uploads/1d7af4be-30e3-4c55-8a4c-475c1e3a2a2b.png"
       ],
       rating: 4.9,
@@ -31,7 +31,7 @@ export const useProducts = () => {
         "/lovable-uploads/3dfcdf5b-48eb-4905-a35c-6763d6125138.png",
         "/lovable-uploads/be38cb8a-2720-4df0-9f9a-4c62c406a7bf.png",
         "/lovable-uploads/744e86a1-b689-477d-8bbf-feca6b494572.png",
-        "/lovable-uploads/5ba0b915-0158-4298-b284-8dfc61ee57cf.png"
+        "/lovable-uploads/6653d618-9859-40fa-831b-bf119051cec1.png"
       ],
       rating: 4.7,
       reviews: 803,

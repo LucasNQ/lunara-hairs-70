@@ -50,11 +50,8 @@ export const CartProvider = ({ children }: CartProviderProps) => {
     setCartItems(prevItems => {
       const existingItem = prevItems.find(item => item.id === product.id);
       if (existingItem) {
-        return prevItems.map(item =>
-          item.id === product.id
-            ? { ...item, quantity: item.quantity + 1 }
-            : item
-        );
+        // Don't add if product already exists - each product can only be bought once
+        return prevItems;
       } else {
         return [...prevItems, { ...product, quantity: 1 }];
       }
