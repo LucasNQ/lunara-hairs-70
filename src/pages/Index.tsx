@@ -1,6 +1,5 @@
 
 import React, { useEffect } from 'react';
-import { HelmetProvider } from 'react-helmet-async';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ProductsSection from '@/components/ProductsSection';
@@ -37,8 +36,7 @@ const Index = () => {
   }, []);
 
   return (
-    <HelmetProvider>
-      <div className="min-h-screen">
+    <div className="min-h-screen">
         <SEOHead 
           title="Lunara Cosméticos"
           description="Descubra nossa linha completa de produtos profissionais para transformar seus cabelos com resultados de salão no conforto da sua casa. Progressivas, alisadores e muito mais."
@@ -55,7 +53,6 @@ const Index = () => {
         <Footer />
         <FloatingWhatsAppButton />
       </div>
-    </HelmetProvider>
   );
 };
 
