@@ -1,0 +1,21 @@
+# Apache configuration for SPA
+RewriteEngine On
+RewriteBase /
+
+# Handle Angular/React Router Routes
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
+# Legacy product URLs redirect to new slug-based URLs
+RewriteRule ^product/1$ /produto/progressiva-organica-liso-therapy [R=301,L]
+RewriteRule ^product/2$ /produto/tophair-gummy-cabelo-pele-unha [R=301,L]
+RewriteRule ^product/3$ /produto/hidratante-intimo-love-girl [R=301,L]
+RewriteRule ^product/4$ /produto/progressiva-vegetal-havana [R=301,L]
+RewriteRule ^product/5$ /produto/depilador-feminino-5-em-1 [R=301,L]
+RewriteRule ^product/6$ /produto/clareador-manchas-pele [R=301,L]
+RewriteRule ^product/7$ /produto/escova-limpeza-facial-5-em-1 [R=301,L]
+RewriteRule ^product/8$ /produto/batom-depilador-depilaplus [R=301,L]
+RewriteRule ^product/10$ /produto/pente-alisador-portatil [R=301,L]
+RewriteRule ^product/11$ /produto/depilador-laser-flex [R=301,L]

@@ -13,6 +13,7 @@ export interface Product {
   badge: string;
   badgeColor: string;
   description?: string;
+  slug: string;
 }
 
 export interface CartItem extends Product {

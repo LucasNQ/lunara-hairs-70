@@ -1,0 +1,14 @@
+# Netlify redirects for SPA
+/*    /index.html   200
+
+# Legacy product URLs redirect to new slug-based URLs
+/product/1    /produto/progressiva-organica-liso-therapy   301
+/product/2    /produto/tophair-gummy-cabelo-pele-unha      301
+/product/3    /produto/hidratante-intimo-love-girl         301
+/product/4    /produto/progressiva-vegetal-havana          301
+/product/5    /produto/depilador-feminino-5-em-1           301
+/product/6    /produto/clareador-manchas-pele              301
+/product/7    /produto/escova-limpeza-facial-5-em-1        301
+/product/8    /produto/batom-depilador-depilaplus          301
+/product/10   /produto/pente-alisador-portatil             301
+/product/11   /produto/depilador-laser-flex                301

@@ -18,7 +18,8 @@ export const useProducts = () => {
       rating: 4.9,
       reviews: 857,
       badge: "Premium",
-      badgeColor: "bg-yellow-500"
+      badgeColor: "bg-yellow-500",
+      slug: "clareador-manchas-pele"
     },
     {
       id: 2,
@@ -36,7 +37,8 @@ export const useProducts = () => {
       rating: 4.7,
       reviews: 803,
       badge: "Novidade",
-      badgeColor: "bg-pink-500"
+      badgeColor: "bg-pink-500",
+      slug: "tophair-gummy-cabelo-pele-unha"
     },
     {
       id: 4,
@@ -53,7 +55,8 @@ export const useProducts = () => {
       rating: 4.6,
       reviews: 514,
       badge: "Recomendado",
-      badgeColor: "bg-green-500"
+      badgeColor: "bg-green-500",
+      slug: "progressiva-vegetal-havana"
     },
     {
       id: 10,
@@ -70,7 +73,8 @@ export const useProducts = () => {
       rating: 4.5,
       reviews: 492,
       badge: "Top 1",
-      badgeColor: "bg-red-500"
+      badgeColor: "bg-red-500",
+      slug: "pente-alisador-portatil"
     },
     {
       id: 11,
@@ -87,7 +91,8 @@ export const useProducts = () => {
       rating: 4.4,
       reviews: 298,
       badge: "Tecnologia",
-      badgeColor: "bg-blue-500"
+      badgeColor: "bg-blue-500",
+      slug: "depilador-laser-flex"
     },
     {
       id: 8,
@@ -104,7 +109,8 @@ export const useProducts = () => {
       rating: 4.4,
       reviews: 255,
       badge: "Inovação",
-      badgeColor: "bg-purple-500"
+      badgeColor: "bg-purple-500",
+      slug: "batom-depilador-depilaplus"
     },
     {
       id: 3,
@@ -120,7 +126,8 @@ export const useProducts = () => {
       rating: 4.3,
       reviews: 187,
       badge: "Recomendado",
-      badgeColor: "bg-green-500"
+      badgeColor: "bg-green-500",
+      slug: "hidratante-intimo-love-girl"
     },
     {
       id: 5,
@@ -138,7 +145,8 @@ export const useProducts = () => {
       rating: 4.3,
       reviews: 251,
       badge: "Inovação",
-      badgeColor: "bg-purple-500"
+      badgeColor: "bg-purple-500",
+      slug: "depilador-feminino-5-em-1"
     },
     {
       id: 1,
@@ -154,7 +162,8 @@ export const useProducts = () => {
       rating: 4.4,
       reviews: 358,
       badge: "Recomendado",
-      badgeColor: "bg-green-500"
+      badgeColor: "bg-green-500",
+      slug: "progressiva-organica-liso-therapy"
     },
     {
       id: 7,
@@ -171,12 +180,17 @@ export const useProducts = () => {
       rating: 3.7,
       reviews: 134,
       badge: "Novidade",
-      badgeColor: "bg-pink-500"
+      badgeColor: "bg-pink-500",
+      slug: "escova-limpeza-facial-5-em-1"
     }
   ], []);
 
   const getProductById = (id: number) => {
     return products.find(product => product.id === id);
+  };
+
+  const getProductBySlug = (slug: string) => {
+    return products.find(product => product.slug === slug);
   };
 
   const getFeaturedProducts = (count: number = 3) => {
@@ -186,6 +200,7 @@ export const useProducts = () => {
   return {
     products,
     getProductById,
+    getProductBySlug,
     getFeaturedProducts
   };
 };

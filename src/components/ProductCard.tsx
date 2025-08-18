@@ -18,7 +18,7 @@ const ProductCard = ({ product, priority = false }: ProductCardProps) => {
   const { addToCart } = useCart();
 
   const handleProductClick = () => {
-    navigate(`/product/${product.id}`);
+    navigate(`/produto/${product.slug}`);
   };
 
   const handleAddToCart = (event: React.MouseEvent) => {
