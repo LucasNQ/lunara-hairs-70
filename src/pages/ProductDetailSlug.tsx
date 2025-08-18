@@ -54,7 +54,7 @@ const ProductDetailSlug = () => {
       <div className="min-h-screen bg-gray-50">
         <Header />
         
-        <main className="container mx-auto px-4 py-8 max-w-6xl">
+        <main className="container mx-auto px-4 pt-24 pb-8 max-w-6xl">
           <Button
             variant="outline"
             onClick={() => navigate('/products')}
@@ -135,13 +135,10 @@ const ProductDetailSlug = () => {
           <Card className="mb-8">
             <CardContent className="p-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Descrição do Produto</h2>
-              <div className="prose prose-lg max-w-none text-gray-700">
-                {description.split('\n\n').map((paragraph, index) => (
-                  <p key={index} className="mb-4 leading-relaxed">
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
+              <div 
+                className="prose prose-lg max-w-none text-gray-700"
+                dangerouslySetInnerHTML={{ __html: description }}
+              />
             </CardContent>
           </Card>
         </main>
